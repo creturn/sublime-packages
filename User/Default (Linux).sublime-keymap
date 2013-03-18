@@ -1,0 +1,4 @@
+[
+ { "keys": ["alt+m"], "command": "input_helper" },
+ {"keys": ["alt+a"], "command": "alignment" }
+]

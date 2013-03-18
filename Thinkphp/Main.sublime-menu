@@ -1,0 +1,88 @@
+[	
+	{
+		"id": "tools",
+		"children":
+		[	
+			{
+				"caption": "ThinkPHP",
+				"children":
+				[	
+					{
+						"caption": "ThinkPHP delete opened folders' bom",
+						"id": "ThinkPHP del_bom",
+						"command": "del_workspace_boms"
+					},
+					{
+						"caption": "ThinkPHP manual",
+						"id": "ThinkPHP manual",
+						"command": "thinkphp"
+					},
+					{
+						"caption": "ThinkPHP manual: api",
+						"id": "ThinkPHP api manual",
+						"command": "view_thinkphp_api_manual"
+					},
+					{
+						"caption": "ThinkPHP manual: search",
+						"id": "ThinkPHP manual: search",
+						"command": "search_thinkphp_manual"
+					},
+					{
+						"caption": "ThinkPHP manual: build book",
+						"id": "ThinkPHP manual: build book",
+						"command": "update_thinkphp_manual"
+					},
+					{
+						"caption": "ThinkPHP manual: build book with php",
+						"id": "ThinkPHP manual: build book with php",
+						"command": "update_thinkphp_manual_with_php"
+					},
+					{ "caption": "-" },
+					{ "command": "open_file", 
+						"args": {"file": "${packages}/Thinkphp/php.sublime-completions"},
+						"caption": "Browse Complation - php", "mnemonic": "B" 
+					},
+					{
+						"command": "open_file",
+						"args": {"file": "${packages}/Thinkphp/tpl.sublime-completions"},
+						"caption": "Browse Complation - tpl"
+					},
+					{
+						"command": "open_file",
+						"args": {"file": "${packages}/Thinkphp/ThinkPHP.sublime-settings"},
+						"caption": "Settings – Default"
+					},
+					{
+						"command": "open_file",
+						"args": {"file": "${packages}/User/ThinkPHP.sublime-settings"},
+						"caption": "Settings – User"
+					},
+					{
+						"command": "open_file",
+						"args": {
+							"file": "${packages}/ThinkPHP/Default (Windows).sublime-keymap",
+							"platform": "Windows"
+						},
+						"caption": "Key Bindings – Default"
+					},
+					{
+						"command": "open_file",
+						"args": {
+							"file": "${packages}/ThinkPHP/Default (OSX).sublime-keymap",
+							"platform": "OSX"
+						},
+						"caption": "Key Bindings – Default"
+					},
+					{
+						"command": "open_file",
+						"args": {
+							"file": "${packages}/ThinkPHP/Default (Linux).sublime-keymap",
+							"platform": "Linux"
+						},
+						"caption": "Key Bindings – Default"
+					}
+				]
+			}
+		]
+	}
+]

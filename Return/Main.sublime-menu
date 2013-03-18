@@ -1,0 +1,19 @@
+[	
+	{
+		"id": "tools",
+		"children":
+		[	
+			{
+				"caption": "Return",
+				"children":
+				[	
+					{
+						"caption": "Weibo information show",
+						"id": "Return weiboHome",
+						"command": "showhome"
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,19 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"DocBlockr",
+		"Emmet",
+		"InputHelper",
+		"JsFormat",
+		"Obsidian Color Scheme",
+		"Package Control",
+		"PHPUnit",
+		"Sublimerge",
+		"SublimErl",
+		"SublimeRope",
+		"Theme - Night",
+		"Thinkphp"
+	]
+}
